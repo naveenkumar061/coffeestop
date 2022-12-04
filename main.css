@@ -2,6 +2,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-.header {
+.header,
+.footer {
   background: #996c4c;
+}
+.footer p {
+  text-transform: capitalize;
 }
