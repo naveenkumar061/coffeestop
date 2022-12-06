@@ -36,7 +36,10 @@ a {
   text-align: center;
 }
 .type-detail {
-  color: #996c4c;
+  color: #fff;
   font-size: 1.5rem;
   font-family: "Playfair Display", serif;
+}
+.section {
+  background: #996c4c;
 }
