@@ -9,3 +9,7 @@
 .footer p {
   text-transform: capitalize;
 }
+.banner-img {
+  width: 100%;
+  height: 100vh;
+}
