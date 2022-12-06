@@ -2,43 +2,47 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  background: #6f4e37;
 }
-.header,
-.footer {
-  background: #996c4c;
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
 }
-.footer p {
-  text-transform: capitalize;
-}
-.banner-img {
-  width: 100%;
-  height: 100vh;
+li {
+  list-style: none;
 }
 h1,
 h2,
 h3,
-h4 {
+h4,
+a {
   font-family: "Playfair Display", serif;
 }
 p {
   font-family: "La Belle Aurore", cursive;
 }
-li {
-  list-style: none;
+h1 {
+  font-size: 4.5rem;
 }
-a {
-  text-decoration: none;
-  color: #000;
-  font-family: "Playfair Display", serif;
-  font-size: 1.25rem;
+h2 {
+  font-size: 3.5rem;
 }
-.banner h1 {
-  text-align: center;
+h3 {
+  font-size: 2.5rem;
 }
-.type-detail {
-  color: #fff;
-  font-family: "Playfair Display", serif;
+h4 {
+  font-size: 2rem;
 }
-.section {
-  background: #996c4c;
+p {
+  font-size: 1.5rem;
+}
+.footer p {
+  text-transform: capitalize;
+}
+.banner {
+  height: 100vh;
+}
+.banner-title {
+  background: url("./images/background.jpg");
 }
