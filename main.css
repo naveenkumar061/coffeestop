@@ -11,6 +11,7 @@ a {
 }
 li {
   list-style: none;
+  letter-spacing: 2px;
 }
 h1,
 h2,
@@ -40,9 +41,13 @@ p {
 .footer p {
   text-transform: capitalize;
 }
-.banner {
-  height: 100vh;
-}
 .banner-title {
-  background: url("./images/background.jpg");
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(196, 160, 136, 0.5)),
+    url("./images/background.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
 }
